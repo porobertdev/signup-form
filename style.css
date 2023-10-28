@@ -54,7 +54,6 @@ body {
 /* RIGHT CONTAINER */
 .right.container {
     background-color: #f9fafb;
-    padding-left: 2rem;
     width: var(--right-container-width);
 }
 
@@ -68,6 +67,12 @@ body {
     display: block;
     margin-top: 2rem;
     
+}
+
+.right > p.info,
+form,
+.bottom {
+    padding-left: 2rem;
 }
 
 .right > form {
