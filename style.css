@@ -12,6 +12,7 @@ body {
     display: flex;
     height: 100vh;
     margin: 0;
+    font-family: 'Lato';
 }
 
 /* LEFT CONTAINER */
@@ -58,7 +59,7 @@ body {
 }
 
 .right > p.info {
-    padding: 5rem 0 2rem 0;
+    padding: 3rem 0 2rem 0;
     font-weight: bold;
     max-width: 55ch;
 }
@@ -95,10 +96,60 @@ form > div > div {
     display: flex;
     flex-direction: column;
     
-    margin-right: 3rem;
+    margin-right: 3.5rem;
     margin-bottom: 1rem;
 }
 
 form label {
-    font-size: 2vh;
+    font-size: 1.7vh;
+    color: rgb(100, 100, 100);
+    letter-spacing: 1.5px;
+}
+
+form input {
+    width: 12rem;
+
+    outline: none;
+    border: 2px solid #E5E7EB;
+    border-radius: 3px;
+    padding: 0.2rem 0;
+}
+
+form input:focus {
+    /* outline-style: none; */
+    outline: blue solid;
+    box-shadow: 4px 4px 2px rgba(128, 128, 128, 0.36);
+}
+
+button {
+    appearance: none;
+    border: none;
+    background-color: #5b8556;
+    border-radius: 8px;
+
+    color: white;
+    
+    font-weight: bold;
+    padding: 10px 45px;
+    margin-bottom: 0.35rem;
+}
+
+button:hover {
+    color: #5b8556;
+    background-color: white;
+    border: 1px solid #5b8556;
+    transition: 300ms;
+}
+
+.bottom p {
+    font-size: 0.75rem;
+}
+
+span.login {
+    color: #5b8556;
+    padding-bottom: 3px;
+}
+
+span.login:hover {
+    border-bottom: 3px solid #5b8556;
 }
