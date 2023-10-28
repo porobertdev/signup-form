@@ -75,6 +75,30 @@ form,
     padding-left: 2rem;
 }
 
-.right > form {
+.right form {
     background-color: #ffffff;
+}
+
+/* debugging */
+/* form > * {
+    border: 2px solid red;
+} */
+
+form > div {
+    /* flex */
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 40px; */
+}
+
+form > div > div {
+    display: flex;
+    flex-direction: column;
+    
+    margin-right: 3rem;
+    margin-bottom: 1rem;
+}
+
+form label {
+    font-size: 2vh;
 }
