@@ -141,6 +141,11 @@ button:hover {
     transition: 300ms;
 }
 
+button,
+span.login {
+    cursor: pointer;
+}
+
 .bottom p {
     font-size: 0.75rem;
 }
