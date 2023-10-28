@@ -153,3 +153,13 @@ span.login {
 span.login:hover {
     border-bottom: 3px solid #5b8556;
 }
+
+form input.error {
+    border-color: red;
+    outline: none;
+}
+
+form span.error {
+    color: red;
+    font-size: 0.6rem;   
+}
