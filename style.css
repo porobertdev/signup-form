@@ -1,3 +1,8 @@
+:root {
+    --left-container-width: 70vw;
+    --right-container-width: 90vw;
+}
+
 @font-face {
     font-family: 'Norse Bold';
     src: url('./assets/Norse-Bold.otf');
@@ -9,8 +14,9 @@ body {
     margin: 0;
 }
 
+/* LEFT CONTAINER */
 .left.container {
-    width: 70vw;
+    width: var(--left-container-width);
     background: url(./assets/background.jpg) no-repeat;
 
     display: flex;
@@ -43,4 +49,27 @@ body {
 .odin-logo,
 .img-source {
     color: white;
+}
+
+/* RIGHT CONTAINER */
+.right.container {
+    background-color: #f9fafb;
+    padding-left: 2rem;
+    width: var(--right-container-width);
+}
+
+.right > p.info {
+    padding: 5rem 0 2rem 0;
+    font-weight: bold;
+    max-width: 55ch;
+}
+
+.right > p.info > span {
+    display: block;
+    margin-top: 2rem;
+    
+}
+
+.right > form {
+    background-color: #ffffff;
 }
