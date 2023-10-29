@@ -18,8 +18,8 @@ body {
 /* LEFT CONTAINER */
 .left.container {
     width: var(--left-container-width);
-    background: url(./assets/background.jpg) no-repeat;
-
+    background: url(./assets/background.jpg) no-repeat right;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center; /* horizontal */
