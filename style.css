@@ -1,6 +1,8 @@
 :root {
     --left-container-width: 70vw;
     --right-container-width: 90vw;
+    --link-color: rgb(22, 224, 103);
+    --dark-green: #5b8556;
 }
 
 @font-face {
@@ -50,6 +52,14 @@ body {
 .odin-logo,
 .img-source {
     color: white;
+}
+
+a {
+    color: var(--link-color);
+}
+
+a:hover {
+    color: var(--dark-green);
 }
 
 /* RIGHT CONTAINER */
@@ -128,7 +138,7 @@ form input:focus {
 button {
     appearance: none;
     border: none;
-    background-color: #5b8556;
+    background-color: var(--dark-green);
     border-radius: 8px;
 
     color: white;
@@ -139,9 +149,9 @@ button {
 }
 
 button:hover {
-    color: #5b8556;
+    color: var(--dark-green);
     background-color: white;
-    border: 1px solid #5b8556;
+    border: 1px solid var(--dark-green);
     transition: 300ms;
 }
 
@@ -155,12 +165,12 @@ span.login {
 }
 
 span.login {
-    color: #5b8556;
+    color: var(--dark-green);
     padding-bottom: 3px;
 }
 
 span.login:hover {
-    border-bottom: 3px solid #5b8556;
+    border-bottom: 3px solid var(--dark-green);
 }
 
 form input.error {
