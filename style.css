@@ -188,9 +188,13 @@ form span.error {
     }
 
     .left > .odin-logo {
-        margin-top: 0;
+        margin: 10rem 0;
         font-size: 15rem;
-        height: 30vh;
+        height: 20vh;
+    }
+
+    .left > p.img-source {
+        font-size: 1.5rem;
     }
 
     .right.container {
